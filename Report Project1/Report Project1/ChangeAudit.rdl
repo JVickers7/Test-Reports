@@ -1,0 +1,1288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="table1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>1.15625in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.62625in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox2">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Table Name</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox2</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox3">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Date Modified</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox3</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox4">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Modified </Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>By</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox4</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox5">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Entity</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox5</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox6">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>New </Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox6</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox7">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Old </Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox7</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox10">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Entity Name</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox10</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox11">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Option / Rule #/ Matrix Dim</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox11</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox12">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Caption / Matrix Details</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox12</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="textbox9">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Entity Status</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>textbox8</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox13">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Audit Log ID</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>11pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox13</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>SteelBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.21in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="TABLE_NAME">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TABLE_NAME.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>TABLE_NAME</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="MODIFIED_DATE">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!MODIFIED_DATE.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>MODIFIED_DATE</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="MODIFIED_BY">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!MODIFIED_BY.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>MODIFIED_BY</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ENTITY">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!ENTITY.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ENTITY</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="NEW_VALUE">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!NEW_VALUE.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>NEW_VALUE</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="OLD_VALUE">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!OLD_VALUE.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>OLD_VALUE</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="NOTE1">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!NOTE1.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>NOTE1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="NOTE2">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!NOTE2.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>NOTE2</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="NOTE3">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!NOTE3.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>NOTE3</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox16">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!ENTITY_STATUS.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox16</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox14">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!AUDIT_LOG_DATA_ID.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox14</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+              <RepeatOnNewPage>true</RepeatOnNewPage>
+              <KeepTogether>true</KeepTogether>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="table1_Details_Group">
+                <DataElementName>Detail</DataElementName>
+              </Group>
+              <SortExpressions>
+                <SortExpression>
+                  <Value>=Fields!MODIFIED_DATE.Value</Value>
+                  <Direction>Descending</Direction>
+                </SortExpression>
+              </SortExpressions>
+              <TablixMembers>
+                <TablixMember />
+              </TablixMembers>
+              <DataElementName>Detail_Collection</DataElementName>
+              <DataElementOutput>Output</DataElementOutput>
+              <KeepTogether>true</KeepTogether>
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>0.36in</Top>
+        <Height>0.83625in</Height>
+        <Width>11.15625in</Width>
+        <Style />
+      </Tablix>
+      <Textbox Name="textbox1">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Change Audit</Value>
+                <Style>
+                  <FontFamily>Tahoma</FontFamily>
+                  <FontSize>20pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>SteelBlue</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Height>0.36in</Height>
+        <Width>11in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>1.19625in</Height>
+    <Style />
+  </Body>
+  <Width>12in</Width>
+  <Page>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="BDMODEL7DEV">
+      <DataSourceReference>BDMODEL7DEV</DataSourceReference>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>4b65aafd-4b4d-4f0b-968c-f53b6e734e0e</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>BDMODEL7DEV</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@ETYPE">
+            <Value>=Parameters!ETYPE.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@MNAME">
+            <Value>=Parameters!MNAME.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@RULENUM">
+            <Value>=Parameters!RULENUM.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@ONAME">
+            <Value>=Parameters!ONAME.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+--DECLARE @ETYPE NVARCHAR(10)
+--DECLARE @RULENUM NVARCHAR(10)
+--DECLARE @MNAME NVARCHAR(10)
+--DECLARE @ONAME NVARCHAR(10)
+--SET @ETYPE='VARIABLE'
+--SET @RULENUM='5253'
+--SET @MNAME=''
+--SET @ONAME=''
+
+
+IF @ETYPE = 'RULE' BEGIN
+
+	WITH GROUP1 AS
+	(SELECT [TABLE_NAME],[MODIFIED_BY],[MODIFIED_DATE],[COL_NAME] AS ENTITY,[NEW_VALUE],[OLD_VALUE]
+	,CASE WHEN AUDIT_ACTION_ID = '3' THEN 'DELETE' 
+	WHEN AUDIT_ACTION_ID = '1' THEN 'UPDATE' 
+	WHEN AUDIT_ACTION_ID = '2' THEN 'INSERT' END AS ENTITY_STATUS
+	,[AUDIT_LOG_DATA_ID],ALT.[AUDIT_LOG_TRANSACTION_ID], [KEY1],[KEY2],[KEY3],[KEY4]
+	FROM [AUDIT_LOG_TRANSACTIONS] ALT
+	INNER JOIN [AUDIT_LOG_DATA] ALD ON ALT.[AUDIT_LOG_TRANSACTION_ID] = ALD.[AUDIT_LOG_TRANSACTION_ID]
+	WHERE TABLE_NAME = 'Rules' AND KEY1=@RULENUM
+	),
+
+	GROUP2 AS
+	(SELECT DISTINCT [RuleID],RG.Name,[RuleCaption]
+	FROM [Rules] R 
+	INNER JOIN [Rulesets] RS ON R.RulesetID = RS.RulesetID
+	INNER JOIN [RulesetGroups] RG ON RG.RulesetGroupID = RS.RulesetGroupID
+	inner JOIN GROUP1 ON GROUP1.KEY1 = RuleID
+	WHERE TABLE_NAME = 'Rules'
+	) ,
+
+	SUMMARY AS (SELECT DISTINCT TABLE_NAME, [MODIFIED_DATE], SUBSTRING(MODIFIED_BY,8,30) AS MODIFIED_BY, ENTITY, '' AS BLANK, NEW_VALUE, 
+	OLD_VALUE, ENTITY_STATUS, AUDIT_LOG_DATA_ID, Name AS NOTE1, CAST(RULEID AS NVARCHAR) AS NOTE2, CAST(RuleCaption AS NVARCHAR) AS NOTE3
+	FROM GROUP1 left JOIN  GROUP2 ON GROUP1.KEY1 = GROUP2.RuleID)
+
+	SELECT *, CONVERT(VARCHAR,[MODIFIED_DATE],101) AS MOD_DATE FROM SUMMARY 
+	--WHERE 
+	--NOTE1 IS NOT NULL AND
+	-- CASE WHEN @RULENUM = '' THEN BLANK ELSE NOTE2 END = @RULENUM
+	ORDER BY TABLE_NAME, NOTE1, NOTE2, NOTE3, [MODIFIED_DATE]
+
+	END
+
+ELSE IF @ETYPE = 'VARIABLE' BEGIN
+
+	WITH GROUP1 AS
+	(SELECT [TABLE_NAME],[MODIFIED_BY],[MODIFIED_DATE],[COL_NAME] AS ENTITY,[NEW_VALUE],[OLD_VALUE]
+	,CASE WHEN AUDIT_ACTION_ID = '3' THEN 'DELETE' 
+	WHEN AUDIT_ACTION_ID = '1' THEN 'UPDATE' 
+	WHEN AUDIT_ACTION_ID = '2' THEN 'INSERT' END AS ENTITY_STATUS
+	,[AUDIT_LOG_DATA_ID],ALT.[AUDIT_LOG_TRANSACTION_ID], [KEY1],[KEY2],[KEY3],[KEY4]
+	FROM [AUDIT_LOG_TRANSACTIONS] ALT
+	INNER JOIN [AUDIT_LOG_DATA] ALD ON ALT.[AUDIT_LOG_TRANSACTION_ID] = ALD.[AUDIT_LOG_TRANSACTION_ID]
+	WHERE TABLE_NAME = 'Variables'),
+
+	GROUP3 AS
+	(SELECT DISTINCT V.[Name] AS VARIABLE, VariableID, RG.Name AS RULESET
+	FROM [Variables] V
+	INNER JOIN [RulesetGroups] RG ON V.VariableCollectionID = RG.VariableCollectionID
+	LEFT JOIN GROUP1 ON GROUP1.KEY1 = VariableID
+	WHERE TABLE_NAME = 'Variables'),
+
+	SUMMARY AS
+	(SELECT DISTINCT TABLE_NAME, [MODIFIED_DATE], SUBSTRING(MODIFIED_BY,8,30) AS MODIFIED_BY, ENTITY, '' AS BLANK, 
+	NEW_VALUE, OLD_VALUE, ENTITY_STATUS, AUDIT_LOG_DATA_ID, RULESET AS NOTE1, VARIABLE AS NOTE2, '' AS NOTE3
+	FROM GROUP1 
+	LEFT JOIN GROUP3 ON GROUP1.KEY1 = GROUP3.VariableID)
+
+	SELECT *, CONVERT(VARCHAR,[MODIFIED_DATE],101) AS MOD_DATE
+	FROM SUMMARY 
+	--WHERE NOTE1 IS NOT NULL
+	--AND CASE WHEN @RULENUM = '' THEN BLANK ELSE NOTE2 END = @RULENUM
+	ORDER BY TABLE_NAME, NOTE1, NOTE2, NOTE3, [MODIFIED_DATE]
+
+	END
+
+ELSE IF @ETYPE = 'MATRIX' BEGIN
+	
+	WITH GROUP1 AS
+	(SELECT [TABLE_NAME],[MODIFIED_BY],[MODIFIED_DATE],[COL_NAME] AS ENTITY,[NEW_VALUE],[OLD_VALUE]
+	,CASE WHEN AUDIT_ACTION_ID = '3' THEN 'DELETE' 
+	WHEN AUDIT_ACTION_ID = '1' THEN 'UPDATE' 
+	WHEN AUDIT_ACTION_ID = '2' THEN 'INSERT' END AS ENTITY_STATUS
+	,[AUDIT_LOG_DATA_ID],ALT.[AUDIT_LOG_TRANSACTION_ID], [KEY1],[KEY2],[KEY3],[KEY4]
+	FROM [AUDIT_LOG_TRANSACTIONS] ALT
+	INNER JOIN [AUDIT_LOG_DATA] ALD ON ALT.[AUDIT_LOG_TRANSACTION_ID] = ALD.[AUDIT_LOG_TRANSACTION_ID]
+	WHERE TABLE_NAME IN ('MatrixValueFields', 'MatrixValues')),
+ 
+	GROUP4 AS
+	(SELECT DISTINCT M.Name AS MATRIX_NAME, MDV.MatrixValueID
+	FROM [Matrices] M 
+	INNER JOIN [MatrixDimensions] MD ON MD.MatrixID = M.MatrixID
+	INNER JOIN [MatrixDimensionValues] MDV ON MD.MatrixDimensionID = MDV.MatrixDimensionID
+	INNER JOIN [MatrixValues] MV ON M.[MatrixID] = MV.[MatrixID] AND MDV.MatrixValueID = MV.MatrixValueID
+	INNER JOIN GROUP1 ON GROUP1.KEY1 = MDV.MatrixValueID
+	WHERE TABLE_NAME = 'MatrixValues' AND M.Name = @MNAME),
+
+	GROUP7 AS
+	(SELECT DISTINCT M.Name AS MATRIX_NAME_C, MVF.MatrixFieldID, MF.[Name] as DIM_NAME, MatrixValueID
+	FROM [Matrices] M 
+	INNER JOIN [MatrixFields] MF ON M.[MatrixID] = MF.[MatrixID] 
+	INNER JOIN [MatrixValueFields] MVF ON MF.MatrixFieldID = MVF.MatrixFieldID 
+	INNER JOIN GROUP1 ON GROUP1.KEY2 = MVF.MatrixFieldID
+	WHERE TABLE_NAME IN ('MatrixValueFields') AND M.Name = @MNAME ),
+
+	-- matrix value data concat
+	MDATA AS
+	(SELECT MDV.MatrixValueID AS MVID, ('C' + CAST(([Sequence]+1) AS NVARCHAR)) AS COL_NUM, 
+	CASE WHEN Value IS NULL THEN CAST([NumericValue] AS NVARCHAR) ELSE Value END AS PROD_NAME
+	FROM [MatrixDimensionValues] MDV
+	INNER JOIN [MatrixDimensions] MD ON MDV.[MatrixDimensionID] = MD.[MatrixDimensionID]
+	INNER JOIN GROUP7 ON GROUP7.MatrixValueID = MDV.MatrixValueID),
+
+	CTE (MVID, PROD_LIST, PROD_NAME, LENGTH) AS (SELECT MVID, CAST( '' AS VARCHAR(8000)), CAST('' AS VARCHAR(8000)), 0
+	FROM MDATA GROUP BY MVID UNION ALL
+	SELECT P.MVID, CAST(PROD_LIST + CASE WHEN LENGTH = 0 THEN '' ELSE ', ' END + P.PROD_NAME AS VARCHAR (8000)),
+	CAST (P.PROD_NAME AS VARCHAR (8000)), LENGTH + 1 FROM CTE C
+	INNER JOIN MDATA P ON C.MVID = P.MVID
+	WHERE P.PROD_NAME &gt; C.PROD_NAME),
+
+	MVD AS
+	(SELECT MVID, PROD_LIST FROM (SELECT MVID, PROD_LIST,
+	RANK () OVER (PARTITION BY MVID ORDER BY LENGTH DESC)
+	FROM CTE) D (MVID, PROD_LIST, RANK)
+	WHERE RANK = 1),
+
+	SUMMARY AS
+	(SELECT DISTINCT TABLE_NAME, CONVERT(VARCHAR,[MODIFIED_DATE],101) AS MOD_DATE, MODIFIED_DATE,
+	SUBSTRING(MODIFIED_BY,8,30) AS MODIFIED_BY, ENTITY, '' AS BLANK, 
+	NEW_VALUE, OLD_VALUE, ENTITY_STATUS, AUDIT_LOG_DATA_ID,
+	MATRIX_NAME AS NOTE1, '' AS NOTE2, '' AS NOTE3
+	FROM GROUP1 
+	INNER JOIN GROUP4 ON GROUP1.KEY1 = GROUP4.MatrixValueID
+	UNION ALL
+	SELECT DISTINCT TABLE_NAME, CONVERT(VARCHAR,[MODIFIED_DATE],101) AS MOD_DATE, MODIFIED_DATE,
+	SUBSTRING(MODIFIED_BY,8,30) AS MODIFIED_BY, ENTITY, '' AS BLANK, 
+	NEW_VALUE, OLD_VALUE, ENTITY_STATUS, AUDIT_LOG_DATA_ID,
+	MATRIX_NAME_C AS NOTE1, DIM_NAME AS NOTE2, MVD.PROD_LIST AS NOTE3
+	FROM GROUP1 
+	INNER JOIN GROUP7 ON GROUP1.KEY2 = GROUP7.[MatrixFieldID]
+	LEFT JOIN MVD ON GROUP1.KEY1 = MVD.MVID)
+	
+	SELECT * FROM (
+	SELECT * ,ROW_NUMBER() OVER(PARTITION BY AUDIT_LOG_DATA_ID ORDER BY AUDIT_LOG_DATA_ID DESC) AS RowNum
+	FROM SUMMARY 
+	) S
+	WHERE S.RowNum=1
+	ORDER BY TABLE_NAME, NOTE1, NOTE2, NOTE3, [MODIFIED_DATE]
+	
+	END
+
+ELSE IF @ETYPE = 'OPTION' BEGIN
+
+	WITH GROUP1 AS
+	(SELECT [TABLE_NAME],[MODIFIED_BY],[MODIFIED_DATE],[COL_NAME] AS ENTITY,[NEW_VALUE],[OLD_VALUE]
+	,CASE WHEN AUDIT_ACTION_ID = '3' THEN 'DELETE' 
+	WHEN AUDIT_ACTION_ID = '1' THEN 'UPDATE' 
+	WHEN AUDIT_ACTION_ID = '2' THEN 'INSERT' END AS ENTITY_STATUS
+	,[AUDIT_LOG_DATA_ID],ALT.[AUDIT_LOG_TRANSACTION_ID], [KEY1],[KEY2],[KEY3],[KEY4]
+	FROM [AUDIT_LOG_TRANSACTIONS] ALT
+	INNER JOIN [AUDIT_LOG_DATA] ALD ON ALT.[AUDIT_LOG_TRANSACTION_ID] = ALD.[AUDIT_LOG_TRANSACTION_ID]
+	WHERE TABLE_NAME IN ('OptionListGroupValues','OptionListValueFields')),
+	
+	GROUP5 AS
+	(SELECT OLVF.[OptionListFieldID],OLVF.[OptionListValueID],[OptionListFieldName],[Value],OL.Name AS OL_NAME
+	FROM [OptionListValueFields] OLVF
+	INNER JOIN [OptionListValues] OLV ON OLV.OptionListValueID = OLVF.OptionListValueID
+	INNER JOIN [OptionLists] OL ON OL.OptionListID = OLV.OptionListID
+	INNER JOIN [OptionListFields] OLF ON (OLF.OptionListFieldID = OLVF.OptionListFieldID 
+	AND OLF.OptionListID = OL.OptionListID)
+	INNER JOIN GROUP1 ON (KEY2 = OLVF.OptionListValueID AND KEY1 = OLVF.OptionListFieldID)
+	WHERE OptionListFieldName = 'Value' AND OLVF.OptionListFieldID IS NOT NULL
+	AND TABLE_NAME = 'OptionListValueFields'),
+
+	GROUP6 AS
+	(SELECT DISTINCT OLGV.[OptionListGroupID], OLVF.Value AS OPTION_CODE, OLG.Name AS OPTION_GROUP, OL.Name AS OPTION_LIST
+	FROM [OptionListGroupValues] OLGV
+	INNER JOIN [OptionListGroups] OLG ON OLGV.OptionListGroupID = OLG.OptionListGroupID
+	INNER JOIN [OptionLists] OL ON OLG.OptionListID = OL.OptionListID
+	INNER JOIN [OptionListValueFields] OLVF ON OLGV.OptionListValueID = OLVF.OptionListValueID
+	INNER JOIN [OptionListFields] OLF ON OLVF.OptionListFieldID = OLF.OptionListFieldID
+	INNER JOIN GROUP1 ON KEY1 = OLGV.OptionListGroupID
+	WHERE TABLE_NAME = 'OptionListGroupValues'
+	AND OptionListFieldName = 'Value'),
+
+	SUMMARY AS
+	(SELECT DISTINCT TABLE_NAME, [MODIFIED_DATE], SUBSTRING(MODIFIED_BY,8,30) AS MODIFIED_BY, ENTITY, '' AS BLANK, 
+	CASE WHEN TABLE_NAME = 'OptionListGroupValues' THEN OPTION_GROUP ELSE NEW_VALUE END AS NEW_VALUE, 
+	OLD_VALUE, ENTITY_STATUS, AUDIT_LOG_DATA_ID,
+	CAST(CASE WHEN TABLE_NAME = 'OptionListValueFields' THEN OL_NAME ELSE OPTION_LIST END AS NVARCHAR) AS NOTE1,
+	CAST( CASE WHEN TABLE_NAME = 'OptionListValueFields' THEN Value ELSE OPTION_CODE END AS NVARCHAR) AS NOTE2,
+	CAST(CASE WHEN TABLE_NAME = 'OptionListValueFields' THEN '' ELSE '' END AS NVARCHAR) AS NOTE3
+	FROM GROUP1 
+	LEFT JOIN GROUP5 ON GROUP1.KEY1 = GROUP5.[OptionListFieldID]
+	LEFT JOIN GROUP6 ON GROUP1.KEY1 = GROUP6.[OptionListGroupID])
+
+	
+	SELECT * FROM (
+	SELECT  *, CONVERT(VARCHAR,[MODIFIED_DATE],101) AS MOD_DATE, 
+	ROW_NUMBER() OVER(PARTITION BY SUMMARY.AUDIT_LOG_DATA_ID ORDER BY SUMMARY.AUDIT_LOG_DATA_ID DESC) AS RowNum
+	FROM SUMMARY 
+	WHERE NOTE1 IS NOT NULL
+	AND CASE WHEN @RULENUM = '' THEN BLANK ELSE NOTE2 END = @RULENUM
+	AND CASE WHEN @ONAME = '' THEN BLANK ELSE @ONAME END = NOTE1) S
+	WHERE s.RowNum=1
+	
+	ORDER BY TABLE_NAME, NOTE1, NOTE2, NOTE3, [MODIFIED_DATE]
+
+	END</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <Fields>
+        <Field Name="TABLE_NAME">
+          <DataField>TABLE_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MODIFIED_DATE">
+          <DataField>MODIFIED_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="MODIFIED_BY">
+          <DataField>MODIFIED_BY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ENTITY">
+          <DataField>ENTITY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NEW_VALUE">
+          <DataField>NEW_VALUE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="OLD_VALUE">
+          <DataField>OLD_VALUE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ENTITY_STATUS">
+          <DataField>ENTITY_STATUS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AUDIT_LOG_DATA_ID">
+          <DataField>AUDIT_LOG_DATA_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="NOTE1">
+          <DataField>NOTE1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NOTE2">
+          <DataField>NOTE2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NOTE3">
+          <DataField>NOTE3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MOD_DATE">
+          <DataField>MOD_DATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="BLANK">
+          <DataField>BLANK</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="ETYPE">
+      <DataType>String</DataType>
+      <Prompt>Entity Type</Prompt>
+      <ValidValues>
+        <ParameterValues>
+          <ParameterValue>
+            <Value>OPTION</Value>
+            <Label>Option</Label>
+          </ParameterValue>
+          <ParameterValue>
+            <Value>VARIABLE</Value>
+            <Label>Component Attribute</Label>
+          </ParameterValue>
+          <ParameterValue>
+            <Value>RULE</Value>
+            <Label>Rule</Label>
+          </ParameterValue>
+          <ParameterValue>
+            <Value>MATRIX</Value>
+            <Label>Matrix</Label>
+          </ParameterValue>
+        </ParameterValues>
+      </ValidValues>
+    </ReportParameter>
+    <ReportParameter Name="RULENUM">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Rule Number</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="MNAME">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Matrix Name</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ONAME">
+      <DataType>String</DataType>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Option List Name</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <Language>en-US</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>896b51f6-aeb5-4dfc-a5b8-7e82e6da8976</rd:ReportID>
+</Report>

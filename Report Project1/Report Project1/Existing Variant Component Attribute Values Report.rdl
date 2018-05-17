@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix1">
+        <TablixCorner>
+          <TablixCornerRows>
+            <TablixCornerRow>
+              <TablixCornerCell>
+                <CellContents>
+                  <Textbox Name="Textbox4">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>Item</Value>
+                            <Style />
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox4</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>LightGrey</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixCornerCell>
+              <TablixCornerCell>
+                <CellContents>
+                  <Textbox Name="Textbox7">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>Variant</Value>
+                            <Style />
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox7</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>LightGrey</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixCornerCell>
+              <TablixCornerCell>
+                <CellContents>
+                  <Textbox Name="Textbox9">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>Description</Value>
+                            <Style />
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox9</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>LightGrey</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixCornerCell>
+            </TablixCornerRow>
+          </TablixCornerRows>
+        </TablixCorner>
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>1.32292in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.25in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Value">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Value.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Value</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="ComponentAttributeName">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!ComponentAttributeName.Value</GroupExpression>
+                </GroupExpressions>
+              </Group>
+              <SortExpressions>
+                <SortExpression>
+                  <Value>=Fields!ComponentAttributeName.Value</Value>
+                </SortExpression>
+              </SortExpressions>
+              <TablixHeader>
+                <Size>0.25in</Size>
+                <CellContents>
+                  <Textbox Name="ComponentAttributeName">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>=Fields!ComponentAttributeName.Value</Value>
+                            <Style />
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>ComponentAttributeName</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>LightGrey</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+            </TablixMember>
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="RulesetName">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!RulesetName.Value</GroupExpression>
+                  <GroupExpression>=Fields!ConfigurationID.Value</GroupExpression>
+                </GroupExpressions>
+              </Group>
+              <SortExpressions>
+                <SortExpression>
+                  <Value>=Fields!RulesetName.Value</Value>
+                </SortExpression>
+                <SortExpression>
+                  <Value>=Fields!ConfigurationID.Value</Value>
+                </SortExpression>
+              </SortExpressions>
+              <TablixHeader>
+                <Size>1in</Size>
+                <CellContents>
+                  <Textbox Name="RulesetName">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>=Fields!RulesetName.Value</Value>
+                            <Style />
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>RulesetName</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>LightGrey</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember>
+                  <TablixHeader>
+                    <Size>1in</Size>
+                    <CellContents>
+                      <Textbox Name="ConfigurationID">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>=Fields!ConfigurationID.Value</Value>
+                                <Style />
+                              </TextRun>
+                            </TextRuns>
+                            <Style />
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>ConfigurationID</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>LightGrey</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember>
+                      <TablixHeader>
+                        <Size>3.17708in</Size>
+                        <CellContents>
+                          <Textbox Name="Description">
+                            <CanGrow>true</CanGrow>
+                            <KeepTogether>true</KeepTogether>
+                            <Paragraphs>
+                              <Paragraph>
+                                <TextRuns>
+                                  <TextRun>
+                                    <Value>=Fields!Description.Value</Value>
+                                    <Style />
+                                  </TextRun>
+                                </TextRuns>
+                                <Style />
+                              </Paragraph>
+                            </Paragraphs>
+                            <rd:DefaultName>Description</rd:DefaultName>
+                            <Style>
+                              <Border>
+                                <Color>LightGrey</Color>
+                                <Style>Solid</Style>
+                              </Border>
+                              <PaddingLeft>2pt</PaddingLeft>
+                              <PaddingRight>2pt</PaddingRight>
+                              <PaddingTop>2pt</PaddingTop>
+                              <PaddingBottom>2pt</PaddingBottom>
+                            </Style>
+                          </Textbox>
+                        </CellContents>
+                      </TablixHeader>
+                    </TablixMember>
+                  </TablixMembers>
+                </TablixMember>
+              </TablixMembers>
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Height>0.5in</Height>
+        <Width>6.5in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>0.5in</Height>
+    <Style />
+  </Body>
+  <Width>6.5in</Width>
+  <Page>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="BUYDESIGNREP">
+      <DataSourceReference>BUYDESIGNREP</DataSourceReference>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>6f0fed42-5990-4e8d-9e0e-b4e512559b0a</rd:DataSourceID>
+    </DataSource>
+    <DataSource Name="BDMODEL7DEV">
+      <DataSourceReference>BDMODEL7DEV</DataSourceReference>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>c432cc2c-05cb-40b8-8ec9-ca129eb22208</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="RuleSets">
+      <Query>
+        <DataSourceName>BDMODEL7DEV</DataSourceName>
+        <CommandText>SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+/**/
+SELECT  [RulesetGroupID]
+       ,[Name]
+       ,[ParentRulesetGroupID]
+       ,[VariableCollectionID]
+FROM    [RulesetGroups]
+WHERE   ParentRulesetGroupID = 1
+ORDER BY Name</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="RulesetGroupID">
+          <DataField>RulesetGroupID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Name">
+          <DataField>Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ParentRulesetGroupID">
+          <DataField>ParentRulesetGroupID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="VariableCollectionID">
+          <DataField>VariableCollectionID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="Variables">
+      <Query>
+        <DataSourceName>BDMODEL7DEV</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@ITEM">
+            <Value>=Parameters!ITEM.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+/*Existing Variant Component Attribute Values Report*/
+;
+WITH    [CTE]
+          AS ( SELECT   [R].[RulesetGroupID]
+                       ,[Name]
+					   ,R.[VariableCollectionID]
+               FROM     [dbo].[RulesetGroups] [R]
+               WHERE    [RulesetGroupID] IN ( @ITEM )
+               UNION ALL
+               SELECT   [RG].[RulesetGroupID]
+                       ,[RG].[Name]
+					   ,RG.[VariableCollectionID]
+               FROM     [CTE]
+                        INNER JOIN [dbo].[RulesetGroups] AS [RG] ON [CTE].[RulesetGroupID] = [RG].[ParentRulesetGroupID]
+             )
+    SELECT  DISTINCT V.[Name]
+    FROM    [CTE]
+	INNER JOIN dbo.Variables V ON CTE.VariableCollectionID = V.VariableCollectionID
+    ORDER BY V.[Name]</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Name">
+          <DataField>Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>BUYDESIGNREP</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@ATTRIBUTENAME">
+            <Value>=Parameters!ATTRIBUTENAME.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@ITEMRETURN">
+            <Value>=Parameters!ITEMRETURN.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>--DECLARE @ATTRIBUTENAME VARCHAR(10) = 'O-SERIES' ,
+--    @ITEMRETURN VARCHAR(10) = 'HTCD';
+
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+/*Existing Variant Component Attribute Values Report*/
+CREATE TABLE #COMPATT
+    (
+      ComponentAttributeID BIGINT ,
+      ComponentID BIGINT ,
+      ComponentAttributeName NVARCHAR(50) ,
+      Value NVARCHAR(2000) ,
+      ConfigurationID NVARCHAR(60) ,
+      RulesetName NVARCHAR(50) ,
+      [Description 1] NVARCHAR(2000) ,
+      [Description 2] NVARCHAR(2000)
+    );
+
+
+
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+/*Existing Variant Component Attribute Values Report*/
+
+SELECT  *
+INTO    #AXNAVVAR
+FROM    ( SELECT    BC2.ConfigurationID
+          FROM      dbo.BDCComponentAttributes CA2
+                    INNER JOIN BDCComponents B2 ON B2.ComponentID = CA2.ComponentID
+                    INNER JOIN dbo.BDCConfigurations BC2 ON B2.CfgID = BC2.CfgID
+                    INNER JOIN LCINAVREP.dbo.[LCI$Item Variant] IV ON BC2.ConfigurationID = IV.Code COLLATE Latin1_General_CS_AS
+          WHERE     CA2.ComponentAttributeName IN ( @ATTRIBUTENAME )
+                    AND B2.RulesetName IN ( @ITEMRETURN )
+                    AND BC2.HeaderID = 'VARIANT'
+                    AND ComponentSequence = '1'
+                  
+          UNION
+          SELECT    BC3.ConfigurationID
+          FROM      dbo.BDCComponentAttributes CA3
+                    INNER JOIN BDCComponents B3 ON B3.ComponentID = CA3.ComponentID
+                    INNER JOIN dbo.BDCConfigurations BC3 ON B3.CfgID = BC3.CfgID
+                    INNER JOIN LCIAXREP.dbo.ECORESPRODUCT EP ON EP.DISPLAYPRODUCTNUMBER = BC3.ConfigurationID
+                    INNER JOIN LCIAXREP.dbo.ECORESPRODUCTTRANSLATION EPT ON EP.RECID = EPT.PRODUCT
+          WHERE     CA3.ComponentAttributeName IN ( @ATTRIBUTENAME )
+                    AND B3.RulesetName IN ( @ITEMRETURN )
+                    AND BC3.HeaderID = 'VARIANT'
+               
+        ) A;
+
+--NAV
+INSERT  INTO #COMPATT
+        ( ComponentAttributeID ,
+          ComponentID ,
+          ComponentAttributeName ,
+          Value ,
+          ConfigurationID ,
+          RulesetName ,
+          [Description 1] ,
+          [Description 2]
+        )
+        SELECT  CA.ComponentAttributeID ,
+                CA.ComponentID ,
+                CA.ComponentAttributeName ,
+                CA.Value ,
+                ConfigurationID ,
+                B.RulesetName ,
+                '' ,
+                ''
+        FROM    dbo.BDCComponentAttributes CA
+                INNER JOIN BDCComponents B ON B.ComponentID = CA.ComponentID
+                INNER JOIN dbo.BDCConfigurations BC ON B.CfgID = BC.CfgID
+                INNER JOIN LCINAVREP.dbo.[LCI$Item Variant] IV ON BC.ConfigurationID = IV.Code COLLATE Latin1_General_CS_AS
+        WHERE   CA.ComponentAttributeName IN ( @ATTRIBUTENAME )
+                AND B.RulesetName IN ( @ITEMRETURN )
+                AND BC.HeaderID = 'VARIANT'
+                AND ISNULL(Blocked, 0) = '0'
+                AND ISNULL([Description], '') NOT LIKE 'STOP USING%'
+                AND ComponentSequence = '1' 
+----AX
+        UNION
+        SELECT  CA.ComponentAttributeID ,
+                CA.ComponentID ,
+                CA.ComponentAttributeName ,
+                CA.Value ,
+                ConfigurationID ,
+                B.RulesetName ,
+                '' ,
+                ''
+        FROM    dbo.BDCComponentAttributes CA
+                INNER JOIN BDCComponents B ON B.ComponentID = CA.ComponentID
+                INNER JOIN dbo.BDCConfigurations BC ON B.CfgID = BC.CfgID
+                INNER JOIN LCIAXREP.dbo.ECORESPRODUCT EP ON EP.DISPLAYPRODUCTNUMBER = BC.ConfigurationID
+                INNER JOIN LCIAXREP.dbo.ECORESPRODUCTTRANSLATION EPT ON EP.RECID = EPT.PRODUCT
+        WHERE   CA.ComponentAttributeName IN ( @ATTRIBUTENAME )
+                AND B.RulesetName IN ( @ITEMRETURN )
+                AND BC.HeaderID = 'VARIANT'
+                AND ( ISNULL([EPT].[NAME], '') NOT LIKE 'STOP USING%'
+                      OR [EPT].[NAME] IS NULL
+                    )
+                AND ComponentSequence = '1' 
+--Not in AX or NAV
+        UNION
+       SELECT CA.ComponentAttributeID ,
+                CA.ComponentID ,
+                CA.ComponentAttributeName ,
+                CA.Value ,
+                ConfigurationID ,
+                B.RulesetName ,
+                '' ,
+                ''
+FROM    dbo.BDCComponentAttributes CA
+        INNER JOIN BDCComponents B ON B.ComponentID = CA.ComponentID
+        INNER JOIN dbo.BDCConfigurations BC ON B.CfgID = BC.CfgID
+WHERE   CA.ComponentAttributeName IN ( @ATTRIBUTENAME )
+        AND B.RulesetName IN ( @ITEMRETURN )
+        AND BC.HeaderID = 'VARIANT'
+        AND ComponentSequence = '1'
+		AND BC.ConfigurationID NOT IN ( SELECT * from #AXNAVVAR )
+	
+
+UPDATE  #COMPATT
+SET     [Description 1] = B.Value
+FROM    dbo.BDCComponentAttributes B
+WHERE   B.ComponentID = #COMPATT.ComponentID
+        AND B.ComponentAttributeName IN ( 'DESC1', 'I-DESC1', 'O-COMP_DESC' );
+
+
+UPDATE  #COMPATT
+SET     [Description 2] = B.Value
+FROM    dbo.BDCComponentAttributes B
+WHERE   B.ComponentID = #COMPATT.ComponentID
+        AND B.ComponentAttributeName IN ( 'DESC2', 'I-DESC2', 'O-COMP_DESC2' );
+
+SELECT  ComponentAttributeID ,
+        ComponentID ,
+        ComponentAttributeName ,
+        Value ,
+        ConfigurationID ,
+        RulesetName ,
+        ISNULL([Description 1], '') + ' ' + ISNULL([Description 2], '') AS [Description]
+FROM    #COMPATT;
+
+
+DROP TABLE #COMPATT
+DROP TABLE #AXNAVVAR;</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="ComponentAttributeID">
+          <DataField>ComponentAttributeID</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="ComponentID">
+          <DataField>ComponentID</DataField>
+          <rd:TypeName>System.Int64</rd:TypeName>
+        </Field>
+        <Field Name="ComponentAttributeName">
+          <DataField>ComponentAttributeName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Value">
+          <DataField>Value</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ConfigurationID">
+          <DataField>ConfigurationID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="RulesetName">
+          <DataField>RulesetName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Description">
+          <DataField>Description</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+    <DataSet Name="DataSet2">
+      <Query>
+        <DataSourceName>BDMODEL7DEV</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@ITEM">
+            <Value>=Parameters!ITEM.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandText>SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+/*Existing Variant Component Attribute Values Report*/
+;
+WITH    [CTE]
+          AS ( SELECT   [R].[RulesetGroupID]
+                       ,[Name]
+               FROM     [dbo].[RulesetGroups] [R]
+               WHERE    [RulesetGroupID] IN ( @ITEM )
+               UNION ALL
+               SELECT   [RG].[RulesetGroupID]
+                       ,[RG].[Name]
+               FROM     [CTE]
+                        INNER JOIN [dbo].[RulesetGroups] AS [RG] ON [CTE].[RulesetGroupID] = [RG].[ParentRulesetGroupID]
+             )
+    SELECT  *
+    FROM    [CTE]
+    ORDER BY [Name]</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="RulesetGroupID">
+          <DataField>RulesetGroupID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Name">
+          <DataField>Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="ITEM">
+      <DataType>String</DataType>
+      <Prompt>Ruleset(s):</Prompt>
+      <ValidValues>
+        <DataSetReference>
+          <DataSetName>RuleSets</DataSetName>
+          <ValueField>RulesetGroupID</ValueField>
+          <LabelField>Name</LabelField>
+        </DataSetReference>
+      </ValidValues>
+      <MultiValue>true</MultiValue>
+    </ReportParameter>
+    <ReportParameter Name="ITEMRETURN">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <DataSetReference>
+          <DataSetName>DataSet2</DataSetName>
+          <ValueField>Name</ValueField>
+        </DataSetReference>
+      </DefaultValue>
+      <Hidden>true</Hidden>
+      <ValidValues>
+        <DataSetReference>
+          <DataSetName>DataSet2</DataSetName>
+          <ValueField>Name</ValueField>
+          <LabelField>RulesetGroupID</LabelField>
+        </DataSetReference>
+      </ValidValues>
+      <MultiValue>true</MultiValue>
+    </ReportParameter>
+    <ReportParameter Name="ATTRIBUTENAME">
+      <DataType>String</DataType>
+      <Prompt>Attribute Name:</Prompt>
+      <ValidValues>
+        <DataSetReference>
+          <DataSetName>Variables</DataSetName>
+          <ValueField>Name</ValueField>
+          <LabelField>Name</LabelField>
+        </DataSetReference>
+      </ValidValues>
+      <MultiValue>true</MultiValue>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>57bd7c83-d27f-4ceb-a114-a6aa0ad749f7</rd:ReportID>
+</Report>

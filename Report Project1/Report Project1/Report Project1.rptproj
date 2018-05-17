@@ -12,6 +12,138 @@
       <Name>Report2.rdl</Name>
       <FullPath>Report2.rdl</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Axle Label Issues.rdl</Name>
+      <FullPath>Axle Label Issues.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Axle Pricing Data.rdl</Name>
+      <FullPath>Axle Pricing Data.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Axle Pricing from Quote App.rdl</Name>
+      <FullPath>Axle Pricing from Quote App.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Axle Quote App.rdl</Name>
+      <FullPath>Axle Quote App.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>BOM70 AX.rdl</Name>
+      <FullPath>BOM70 AX.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>BOM70.rdl</Name>
+      <FullPath>BOM70.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>BOMCosted.rdl</Name>
+      <FullPath>BOMCosted.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>BomMatrix.rdl</Name>
+      <FullPath>BomMatrix.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Bommatrix_org.rdl</Name>
+      <FullPath>Bommatrix_org.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>CAWhereUsed.rdl</Name>
+      <FullPath>CAWhereUsed.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cfg Bom and Route.rdl</Name>
+      <FullPath>Cfg Bom and Route.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ChangeAudit.rdl</Name>
+      <FullPath>ChangeAudit.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Chassis Frames.rdl</Name>
+      <FullPath>Chassis Frames.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ClassifiedVariables.rdl</Name>
+      <FullPath>ClassifiedVariables.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ComponentAttributeValues.rdl</Name>
+      <FullPath>ComponentAttributeValues.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Configurations.rdl</Name>
+      <FullPath>Configurations.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Configurator Option by Plant and Cust.rdl</Name>
+      <FullPath>Configurator Option by Plant and Cust.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Existing Variant Component Attribute Values Report.rdl</Name>
+      <FullPath>Existing Variant Component Attribute Values Report.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ExistingVariants.rdl</Name>
+      <FullPath>ExistingVariants.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>InwallCustomers.rdl</Name>
+      <FullPath>InwallCustomers.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>MaintenanceTrack.rdl</Name>
+      <FullPath>MaintenanceTrack.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>MHAddedSkus.rdl</Name>
+      <FullPath>MHAddedSkus.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>MHSkus.rdl</Name>
+      <FullPath>MHSkus.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>NAVUOM.rdl</Name>
+      <FullPath>NAVUOM.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>PNWhereUsed.rdl</Name>
+      <FullPath>PNWhereUsed.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ProdScheduleReport.Design - Backup.rdl</Name>
+      <FullPath>ProdScheduleReport.Design - Backup.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ProdScheduleReport.Design.rdl</Name>
+      <FullPath>ProdScheduleReport.Design.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Purchased Glass.rdl</Name>
+      <FullPath>Purchased Glass.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>PurchasedScreen.rdl</Name>
+      <FullPath>PurchasedScreen.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Quote App Pricing.rdl</Name>
+      <FullPath>Quote App Pricing.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Quote App.rdl</Name>
+      <FullPath>Quote App.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Routing.rdl</Name>
+      <FullPath>Routing.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>SkuCleanup.rdl</Name>
+      <FullPath>SkuCleanup.rdl</FullPath>
+    </ProjectItem>
   </Reports>
   <Configurations>
     <Configuration>
